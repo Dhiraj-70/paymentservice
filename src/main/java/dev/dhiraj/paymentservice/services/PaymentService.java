@@ -13,8 +13,8 @@ public class PaymentService {
     }
 
     public String generatePaymentLink() {
-        //logic to initiate payment details to database
-        return paymentGatewaySelector.getPaymentGateway().getPaymentLink();
+        //logic to initiate payment details to database..
+         return paymentGatewaySelector.getPaymentGateway().getPaymentLink();
     }
 
 }
